@@ -85,7 +85,7 @@ function startGame() {
     currentWord = answers[previousWordIndex];
     console.log({currentWord});
     hiddenWord = createHiddenWord();
-    currentImage = "/images/" + currentWord + ".png";
+    currentImage = "./images/" + currentWord + ".png";
     console.log({currentImage});
 
     // Update the DOM
